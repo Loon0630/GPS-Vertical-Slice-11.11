@@ -155,7 +155,7 @@ MonoBehaviour:
   startTimer: 0
   chargedTimer: 0
   chargeOverTime: 1
-  fullCharge: 1
+  fullCharge: 70
 --- !u!4 &15270566 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 8d8e1d3e4cf76c24ba7ed6562a37d913,
