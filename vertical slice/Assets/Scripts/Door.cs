@@ -29,7 +29,7 @@ public class Door : MonoBehaviour
             chargedTimer += chargeOverTime * Time.deltaTime;
             chargeSlider.value = chargedTimer / fullCharge;
             if (chargedTimer >= fullCharge)
-            {
+            { 
                 winCount++;
                 if(winCount == 1)
                 {
