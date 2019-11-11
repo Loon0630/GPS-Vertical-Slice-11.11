@@ -11,6 +11,7 @@ public class Door : MonoBehaviour
     public float chargedTimer = 0;
     public float chargeOverTime = 1.0f;
     public float fullCharge;
+    private float winCount = 0;
     private Slider chargeSlider;
    
     // Start is called before the first frame update
@@ -27,14 +28,20 @@ public class Door : MonoBehaviour
         {
             chargedTimer += chargeOverTime * Time.deltaTime;
             chargeSlider.value = chargedTimer / fullCharge;
-            //chargeBar.fillAmount = chargedTimer / startTimer;
-            if(chargedTimer >= fullCharge)
+            if (chargedTimer >= fullCharge)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+                winCount++;
+                if(winCount == 1)
+                {
+                    GameManager.Instance.Win();
+                }
+                
             }
         }
         isActivatedDoor = false;
-        
+
+       
+
     }
 
     public void ActivateDoor()
