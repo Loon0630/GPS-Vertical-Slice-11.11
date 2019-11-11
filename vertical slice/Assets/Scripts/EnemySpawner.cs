@@ -22,7 +22,7 @@ public class EnemySpawner : MonoBehaviour
 
     public IEnumerator WaitPlayer()
     {
-        Time.timeScale = 1;
+        
         yield return new WaitForSecondsRealtime(13);//13      
         StartCoroutine(WaitLeftEnemySpawn());
         StartCoroutine(WaitRightEnemySpawn());
@@ -30,14 +30,14 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator WaitLeftEnemySpawn()
     {
-        Time.timeScale = 1;
+        
         yield return new WaitForSecondsRealtime(LeftEnemyStartSpawnTime);  
         StartCoroutine(SpawnEnemy());     
     }
 
     IEnumerator WaitRightEnemySpawn()
     {
-        Time.timeScale = 1;
+        
         yield return new WaitForSecondsRealtime(RightEnemyStartSpawnTime);
         StartCoroutine(SpawnEnemyRight());
     }
@@ -53,7 +53,7 @@ public class EnemySpawner : MonoBehaviour
                 if (i != wave.count - 1)
                     yield return new WaitForSeconds(wave.rate);
             }
-            while (CountEnemyAlive > 1)//If anyone enemy in the map,new enemy will not spawn.
+            while (CountEnemyAlive > 100)//If anyone enemy in the map,new enemy will not spawn.
             {
                 yield return 0;
             }
@@ -74,7 +74,7 @@ public class EnemySpawner : MonoBehaviour
             }
             yield return new WaitForSeconds(waveRateRight);
         }
-        while(CountEnemyAlive > 0)
+        while(CountEnemyAlive > 100)
         {
             yield return 0;
         }
