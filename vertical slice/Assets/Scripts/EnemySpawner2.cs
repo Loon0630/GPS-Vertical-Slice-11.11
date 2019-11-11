@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawner : MonoBehaviour
+public class EnemySpawner2 : MonoBehaviour
 {
     public static int CountEnemyAlive = 0;//Improve founction 01, when before enemy been destory or arrive end point, spwan next wave.
     public Wave[] waves;
@@ -31,8 +31,8 @@ public class EnemySpawner : MonoBehaviour
     IEnumerator WaitLeftEnemySpawn()
     {
         Time.timeScale = 1;
-        yield return new WaitForSecondsRealtime(LeftEnemyStartSpawnTime);  
-        StartCoroutine(SpawnEnemy());     
+        yield return new WaitForSecondsRealtime(LeftEnemyStartSpawnTime);
+        StartCoroutine(SpawnEnemy());
     }
 
     IEnumerator WaitRightEnemySpawn()
@@ -42,7 +42,7 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(SpawnEnemyRight());
     }
 
-        IEnumerator SpawnEnemy()
+    IEnumerator SpawnEnemy()
     {
         foreach (Wave wave in waves)
         {
@@ -74,11 +74,11 @@ public class EnemySpawner : MonoBehaviour
             }
             yield return new WaitForSeconds(waveRateRight);
         }
-        while(CountEnemyAlive > 100)
+        while (CountEnemyAlive > 100)
         {
             yield return 0;
         }
-        GameManager.Instance.Win();
+        
     }
 }
 
