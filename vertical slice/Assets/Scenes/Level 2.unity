@@ -15723,33 +15723,45 @@ MonoBehaviour:
   waves:
   - enemyPrefab: {fileID: 1485457060486166069, guid: dae95bb5923de5645b946c1de214a986,
       type: 3}
-    count: 1
-    rate: 1
+    count: 7
+    rate: 0.9
   - enemyPrefab: {fileID: 1485457060486166069, guid: 874ec8bcdf56a874581b2bb611655552,
       type: 3}
-    count: 1
-    rate: 1
+    count: 7
+    rate: 0.9
   - enemyPrefab: {fileID: 1485457060486166069, guid: 3a053a07caa043242889d8fdf8b1ddb7,
       type: 3}
-    count: 1
-    rate: 1
+    count: 7
+    rate: 0.9
+  - enemyPrefab: {fileID: 1485457060486166069, guid: 3a053a07caa043242889d8fdf8b1ddb7,
+      type: 3}
+    count: 7
+    rate: 0.9
+  - enemyPrefab: {fileID: 1485457060486166069, guid: 3a053a07caa043242889d8fdf8b1ddb7,
+      type: 3}
+    count: 7
+    rate: 0.9
+  - enemyPrefab: {fileID: 1485457060486166069, guid: 3a053a07caa043242889d8fdf8b1ddb7,
+      type: 3}
+    count: 7
+    rate: 0.9
   rightwaves:
   - enemyRightPrefab: {fileID: 7993957896671030904, guid: 63cda87eda6750b4abd8270f39167bf4,
       type: 3}
-    count: 1
-    rate: 1
+    count: 7
+    rate: 0.9
   - enemyRightPrefab: {fileID: 7993957896671030904, guid: 28730035f897c274092bbd6bb1c6798b,
       type: 3}
-    count: 1
-    rate: 1
+    count: 7
+    rate: 0.9
   - enemyRightPrefab: {fileID: 7993957896671030904, guid: 658bc33f7034af3458733372ea737697,
       type: 3}
-    count: 1
-    rate: 1
+    count: 7
+    rate: 0.9
   START: {fileID: 1713621044819067194}
   RIGHTSTART: {fileID: 1713621044004935223}
-  waveRate: 1
-  waveRateRight: 2
+  waveRate: 9
+  waveRateRight: 9
   LeftEnemyStartSpawnTime: 3
   RightEnemyStartSpawnTime: 6
 --- !u!1 &4516301412519990034
