@@ -3867,7 +3867,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7620116354239399603}
-        m_MethodName: PurchaseRocketTurrent
+        m_MethodName: PurchaseMirrorTurrent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4320,7 +4320,7 @@ MonoBehaviour:
       type: 3}
     cost: 65
   MirrorTurrent:
-    prefab: {fileID: -927199367670048503, guid: a9b0102d685cd6143b642a08baf37f32,
+    prefab: {fileID: 1718207269636107566, guid: 5963723bd1d5f9b4288d15e42b19a512,
       type: 3}
     cost: 30
 --- !u!1 &7620116354260999081
