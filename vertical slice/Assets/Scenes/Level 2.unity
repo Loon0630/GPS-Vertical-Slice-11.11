@@ -523,6 +523,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7620116353782144539, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_Text
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620116354271611494, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_Text
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67bd5904dff7e2246884a8e800fd28f8, type: 3}
 --- !u!1 &103657403
@@ -15567,7 +15577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f35a79218a64884d9ed089efecc08e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 400
+  startMoney: 200
   startLives: 10
 --- !u!114 &4488297498850042961
 MonoBehaviour:
