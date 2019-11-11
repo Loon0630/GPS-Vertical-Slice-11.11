@@ -533,6 +533,16 @@ PrefabInstance:
       propertyPath: m_Text
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7620116354271611289, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: startMoney
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620116354271611289, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: startLives
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67bd5904dff7e2246884a8e800fd28f8, type: 3}
 --- !u!1 &103657403
