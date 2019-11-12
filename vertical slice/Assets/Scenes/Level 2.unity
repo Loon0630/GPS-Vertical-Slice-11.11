@@ -434,10 +434,20 @@ PrefabInstance:
       propertyPath: m_Text
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 7620116353782144539, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7620116354271611494, guid: 67bd5904dff7e2246884a8e800fd28f8,
         type: 3}
       propertyPath: m_Text
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620116354271611494, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7620116354271611289, guid: 67bd5904dff7e2246884a8e800fd28f8,
         type: 3}
