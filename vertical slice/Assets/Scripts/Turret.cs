@@ -27,6 +27,10 @@ public class Turret : MonoBehaviour
     public LineRenderer lineRenderer;
     public float curDamageOverTime;
 
+    //public SelectionUI selectionUI;
+
+    public Vector3 turrentPosition { get { return transform.position; } }
+
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
@@ -155,6 +159,8 @@ public class Turret : MonoBehaviour
         SoundManager.PlaySound("Arrow1");
     }
 
+    
+
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
@@ -164,5 +170,13 @@ public class Turret : MonoBehaviour
     public void Activateturret()
     {
         isActivated = true;
+    }
+
+    private void OnMouseDown()
+    {
+        Debug.Log("test");
+
+        FindObjectOfType<SelectionUI>().SetTurrent(turrentPosition);
+
     }
 }

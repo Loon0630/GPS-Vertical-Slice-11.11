@@ -34,7 +34,7 @@ public class MapCube : MonoBehaviour
 
     private void OnMouseDown()
     {
-
+        Debug.Log("test");
         if (turrent != null)
         {
             buildManager.SelectNode(this);

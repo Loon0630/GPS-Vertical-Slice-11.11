@@ -12,4 +12,9 @@ public class SelectionUI : MonoBehaviour
 
         transform.position = turrent.GetBuildPosition();
     }
+
+    public void SetTurrent(Vector3 position)
+    {
+        transform.position = position;
+    }
 }
