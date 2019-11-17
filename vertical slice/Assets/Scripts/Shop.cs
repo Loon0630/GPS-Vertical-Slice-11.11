@@ -6,7 +6,7 @@ public class Shop : MonoBehaviour
 {
 
     BuildManager buildManager;
-
+    MapCube mapCube;
     public TurrentBlueprint standardTurrent;
     public TurrentBlueprint rocketTurrent;
     public TurrentBlueprint MirrorTurrent;
@@ -26,7 +26,7 @@ public class Shop : MonoBehaviour
 
         // build tower (after click build)
             buildManager.SelectTurrentBuild(standardTurrent);
-        buildManager.afterBuild = false;
+        mapCube.afterBuild = false;
         
     }
        
@@ -34,11 +34,11 @@ public class Shop : MonoBehaviour
     public void PurchaseRocketTurrent()
     {
         buildManager.SelectTurrentBuild(rocketTurrent);
-        buildManager.afterBuild = false;
+        mapCube.afterBuild = false;
     }
     public void PurchaseMirrorTurrent()
     {
         buildManager.SelectTurrentBuild(MirrorTurrent);
-        buildManager.afterBuild = false;
+        mapCube.afterBuild = false;
     }
 }

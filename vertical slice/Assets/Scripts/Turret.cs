@@ -27,9 +27,6 @@ public class Turret : MonoBehaviour
     public LineRenderer lineRenderer;
     public float curDamageOverTime;
 
-    //public SelectionUI selectionUI;
-
-    public Vector3 turrentPosition { get { return transform.position; } }
 
     void Start()
     {
@@ -170,13 +167,5 @@ public class Turret : MonoBehaviour
     public void Activateturret()
     {
         isActivated = true;
-    }
-
-    private void OnMouseDown()
-    {
-        Debug.Log("test");
-
-        FindObjectOfType<SelectionUI>().SetTurrent(turrentPosition);
-
     }
 }

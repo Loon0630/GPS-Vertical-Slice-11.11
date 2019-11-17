@@ -1,20 +1,59 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SelectionUI : MonoBehaviour
 {
-    private MapCube turrent;
+    public GameObject ui;
 
-    public void SetTarget(MapCube _turrent)
+    public Text upgradeCost;
+    public Button upgradeButton;
+
+    public Text sellAmount;
+
+    private MapCube target;
+
+    public void SetTarget(MapCube _target)
     {
-        turrent = _turrent;
+        target = _target;
 
-        transform.position = turrent.GetBuildPosition();
+        transform.position = target.GetBuildPosition();
+
+        if (!target.isUpgraded)
+        {
+            upgradeCost.text = "$" + target.turrentBlueprint.upgradeCost;
+            upgradeButton.interactable = true;
+        }
+        else
+        {
+            upgradeCost.text = "DONE";
+            upgradeButton.interactable = false;
+        }
+
+        sellAmount.text = "$" + target.turrentBlueprint.GetSellAmount();
+
+        ui.SetActive(true);
     }
 
-    public void SetTurrent(Vector3 position)
+    public void Hide()
     {
-        transform.position = position;
+        ui.SetActive(false);
     }
+
+    public void Upgrade()
+    {
+        target.UpgradeTurret();
+        BuildManager.instance.DeselectNode();
+    }
+
+    public void Sell()
+    {
+        target.SellTurret();
+        BuildManager.instance.DeselectNode();
+    }
+
+
+
+
 }

@@ -11,13 +11,15 @@ public class MapCube : MonoBehaviour
 
     [Header("Optional")]
     public GameObject turrent;
+    public TurrentBlueprint turrentBlueprint;
+    public bool isUpgraded = false;
+
 
     private Renderer rend;
     private Color startColor;
 
     BuildManager buildManager;
-
-    
+    public bool afterBuild = false;
 
     private void Start()
     {
@@ -44,7 +46,56 @@ public class MapCube : MonoBehaviour
         if (!buildManager.CanBuild)
             return;
 
-        buildManager.BuildTurrentOn(this);
+        BuildTurrentOn(buildManager.GetTurrentToBuild());
+    }
+
+    public void BuildTurrentOn(TurrentBlueprint blueprint)
+    {
+
+        if (afterBuild == false)
+        {
+            if (PlayerStats.Money < blueprint.cost)
+            {
+                Debug.Log("No money");
+                return;
+            }
+
+            PlayerStats.Money -= blueprint.cost;
+
+            GameObject _turrent = (GameObject)Instantiate(blueprint.prefab, GetBuildPosition(), Quaternion.identity);
+            turrent = _turrent;
+
+            turrentBlueprint = blueprint;
+            SoundManager.PlaySound("Build1");
+        }
+        afterBuild = true;
+
+    }
+
+    public void UpgradeTurret()
+    {
+        if (PlayerStats.Money < turrentBlueprint.upgradeCost)
+        {
+            Debug.Log("Not enough money to upgrade that!");
+            return;
+        }
+
+        PlayerStats.Money -= turrentBlueprint.upgradeCost;
+        Destroy(turrent);
+
+        GameObject _turret = (GameObject)Instantiate(turrentBlueprint.upgradedPrefab, GetBuildPosition(), Quaternion.identity);
+        turrent = _turret;
+
+        isUpgraded = true;
+
+    }
+
+    public void SellTurret()
+    {
+        PlayerStats.Money += turrentBlueprint.GetSellAmount();
+
+        Destroy(turrent);
+        turrentBlueprint = null;
     }
 
     void OnMouseEnter()
@@ -52,7 +103,7 @@ public class MapCube : MonoBehaviour
        if (!buildManager.CanBuild)
            return;
 
-       if(buildManager.afterBuild == false)
+       if(afterBuild == false)
         {
             if (buildManager.HasMoney)
             {
