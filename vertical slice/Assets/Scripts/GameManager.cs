@@ -10,16 +10,19 @@ public class GameManager : MonoBehaviour
     public GameObject WinUI;
     public GameObject ShopUI;
     public GameObject JoyUI;
+    public GameObject TipsUI;//
+    //public GameObject tipsTwo;
 
     public static GameManager Instance;
     private EnemySpawner EnemySpawner;
     void Awake()
     {
+        Time.timeScale = 0;//
         Instance = this;
         EnemySpawner = GetComponent<EnemySpawner>();
         LoseUI.SetActive(false);
         WinUI.SetActive(false);
-
+        TipsUI.SetActive(true);//
     }
 
     public void Win()

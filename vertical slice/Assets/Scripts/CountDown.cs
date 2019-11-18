@@ -4,26 +4,29 @@ using UnityEngine.UI;
 
 public class CountDown : MonoBehaviour
 {
-
     public int TotalTime = 1;
     public Text TimeText;
     CanvasGroup canvasGroup;
     private int mumite;
     private int second;
-    public GameObject tipsOne;
-    public GameObject tipsTwo;
+    //public GameObject tipsOne;
+    //public GameObject tipsTwo;
     public int gameStart;
 
     void Start()
+
     {
-        tipsOne.SetActive(true);
+        StartCoroutine(StartTime());
+        canvasGroup = GetComponentInChildren<CanvasGroup>();
+        StartCoroutine(Close());
+        //tipsOne.SetActive(true);
         gameStart = 2;
     }
     public void letGameStart()
     {
         gameStart -= 1;
     }
-    public void Update()
+    /*public void Update()
     {
         if(gameStart == 1)
         {
@@ -33,10 +36,8 @@ public class CountDown : MonoBehaviour
 
     void StartGame()
     {
-        StartCoroutine(StartTime());
-        canvasGroup = GetComponentInChildren<CanvasGroup>();
-        StartCoroutine(Close());
-    }
+        
+    }*/
 
     public IEnumerator StartTime()
     {

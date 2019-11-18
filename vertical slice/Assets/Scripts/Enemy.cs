@@ -95,10 +95,10 @@ public class Enemy : MonoBehaviour
 
             JiangShiMaterial.material.SetFloat("_DissolveThreshold", continueDieTimer);
 
-            if(continueDieTimer >= 1.0f)
+            if (continueDieTimer >= 1.0f)
             {
                 GameObject.Destroy(this.gameObject);
-                break;    
+                break;
             }
             //yield return new WaitForSecondsRealtime(1);        
             yield return null;
@@ -106,11 +106,11 @@ public class Enemy : MonoBehaviour
 
         //foreach (Wave enemyPrefab in jiangshi)
         //{
-            //continueDieTimer += (0.1f + 0.5f) * Time.deltaTime;
-            //JiangShiMaterial.SetFloat("_DissolveThreshold", continueDieTimer);
-            //continueDieTimer += dieTimer * Time.deltaTime;   dieTimer* Time.deltaTime    
-            //yield return 0;
-       // }
+        //continueDieTimer += (0.1f + 0.5f) * Time.deltaTime;
+        //JiangShiMaterial.SetFloat("_DissolveThreshold", continueDieTimer);
+        //continueDieTimer += dieTimer * Time.deltaTime;   dieTimer* Time.deltaTime    
+        //yield return 0;
+        // }
         //
         //GameObject.Destroy(this.gameObject);
         //continueDieTimer = startDietimer; 
