@@ -41,7 +41,8 @@ public class EnemySpawner : MonoBehaviour
     public IEnumerator WaitPlayer()
     {
         Time.timeScale = 1;
-        yield return new WaitForSecondsRealtime(13);//13      
+        yield return new WaitForSecondsRealtime(13);//13  
+        SoundManager.PlaySound("Startsound");
         StartCoroutine(WaitLeftEnemySpawn());
         StartCoroutine(WaitRightEnemySpawn());
     }

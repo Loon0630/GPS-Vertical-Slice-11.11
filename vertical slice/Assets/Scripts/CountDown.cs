@@ -14,9 +14,6 @@ public class CountDown : MonoBehaviour
     public GameObject tipsTwo;
     public int gameStart;
 
-    public AudioClip MusicClip;
-    public AudioSource MusicSource;
-
     void Start()
     {
         tipsOne.SetActive(true);
@@ -39,8 +36,6 @@ public class CountDown : MonoBehaviour
         StartCoroutine(StartTime());
         canvasGroup = GetComponentInChildren<CanvasGroup>();
         StartCoroutine(Close());
-        MusicSource.clip = MusicClip;
-
     }
 
     public IEnumerator StartTime()
