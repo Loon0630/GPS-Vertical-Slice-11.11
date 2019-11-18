@@ -19183,8 +19183,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TotalTime: 12
   TimeText: {fileID: 1823185803}
-  tipsOne: {fileID: 5655205138230231875}
-  tipsTwo: {fileID: 1335725496545871666}
   gameStart: 0
 --- !u!114 &1823185802
 MonoBehaviour:
@@ -23529,6 +23527,7 @@ MonoBehaviour:
   WinUI: {fileID: 7620116354009465325}
   ShopUI: {fileID: 7620116353929776384}
   JoyUI: {fileID: 7620116353997973410}
+  TipsUI: {fileID: 5655205138230231875}
 --- !u!224 &4667704535292993831
 RectTransform:
   m_ObjectHideFlags: 0
