@@ -27,6 +27,7 @@ public class Turret : MonoBehaviour
     public LineRenderer lineRenderer;
     public float curDamageOverTime;
 
+
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
@@ -154,6 +155,8 @@ public class Turret : MonoBehaviour
         }
         SoundManager.PlaySound("Arrow1");
     }
+
+    
 
     void OnDrawGizmosSelected()
     {

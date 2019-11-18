@@ -242,7 +242,7 @@ PrefabInstance:
     - target: {fileID: 7620116353870158804, guid: 67bd5904dff7e2246884a8e800fd28f8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7620116353870158804, guid: 67bd5904dff7e2246884a8e800fd28f8,
         type: 3}
@@ -470,6 +470,136 @@ PrefabInstance:
       propertyPath: startLives
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 3319409525592377039}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: letGameStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 4488297498850042965}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: CountDownEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3260710183416792984, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 4488297498850042965}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: CountDownEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 3319409525592377039}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: letGameStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 6904639687271962029, guid: 67bd5904dff7e2246884a8e800fd28f8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67bd5904dff7e2246884a8e800fd28f8, type: 3}
 --- !u!1 &103657403
@@ -561,7 +691,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 75.145004, y: -4.053, z: -2.72}
 --- !u!1 &177644591
 GameObject:
@@ -896,6 +1026,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &408180248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5655205138069571830, guid: 67bd5904dff7e2246884a8e800fd28f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 90011466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &472249246
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,7 +1061,7 @@ Transform:
   m_Children:
   - {fileID: 1713621044819067194}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &573386897
 GameObject:
@@ -1196,7 +1332,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 84.956, y: 0, z: 0}
 --- !u!114 &1074188235
 MonoBehaviour:
@@ -1220,7 +1356,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a71566438b8632e4480e8c978be6f845, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ee5b8c6ca0dcc2c40a4f276efa038fe0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1356,7 +1492,7 @@ PrefabInstance:
     - target: {fileID: 8352841831463746446, guid: b9eb17934361fda48bb9e294b162433b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8352841831463746446, guid: b9eb17934361fda48bb9e294b162433b,
         type: 3}
@@ -1491,75 +1627,12 @@ Transform:
   m_Father: {fileID: 7473219615216421289}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1572309243
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2268837180776461894, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_Name
-      value: darkness_tower_arrow1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.475
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.781
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2965583786382181461, guid: 8d5f26d765ebf214cb7da72feadfa6cf,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8d5f26d765ebf214cb7da72feadfa6cf, type: 3}
+--- !u!1 &1659326556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1335725496188013703, guid: 67bd5904dff7e2246884a8e800fd28f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 90011466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1665384875 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7620116354171218967, guid: 67bd5904dff7e2246884a8e800fd28f8,
@@ -1673,7 +1746,7 @@ Transform:
   m_Children:
   - {fileID: 1713621044004935223}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1886428182
 GameObject:
@@ -1839,75 +1912,6 @@ Transform:
   m_Father: {fileID: 7473219615216421289}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2108950349
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1367763347309599035, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_Name
-      value: darkness_tower_rocket1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.103701
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.479
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.775
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2639140564891003688, guid: e8709694d6ffed143a6bae61aa76da5e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e8709694d6ffed143a6bae61aa76da5e, type: 3}
 --- !u!1 &2138285177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,6 +2125,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &32562737265912003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2281,6 +2292,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &41397514369444413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2434,6 +2452,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &80776986236288588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2598,6 +2623,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &179933644652514191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2739,6 +2771,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &241351515081484144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2878,6 +2917,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &294468851936546795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2927,6 +2973,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &304866745048450999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3097,6 +3150,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &381619883916031351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3279,6 +3339,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &445069798683068806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3328,6 +3395,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &450140268891890763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3469,6 +3543,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &511063794137617350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3518,6 +3599,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &513799128327019383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3671,6 +3759,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &564384905078974962
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3750,6 +3845,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &593704573304652085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3836,6 +3938,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &631991262526457849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3903,6 +4012,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &655615971768017721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3960,6 +4076,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &668526867817344503
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4054,6 +4177,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &704329059532309373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4121,6 +4251,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &718690832079032105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4170,6 +4307,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &725741523731381326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4219,6 +4363,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &735657337266664959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4459,6 +4610,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &816004542275160616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4553,6 +4711,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &835990237768755825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4690,6 +4855,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &907735888231336308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4739,6 +4911,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &916246659510394701
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4869,6 +5048,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &955799105182093551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4963,6 +5149,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &993170935604346159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5057,6 +5250,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1021722472539015271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5157,6 +5357,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1049145449614065212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5690,6 +5897,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1228017909293215045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5982,6 +6196,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1279963106186175964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6124,6 +6345,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1349347759626984807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6173,6 +6401,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1371101082505753764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6359,6 +6594,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1475840094634059652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6718,6 +6960,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1610744108028719805
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7080,6 +7329,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1747725048913256904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7129,6 +7385,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1748475747777848715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7295,6 +7558,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1822241328686997242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7344,6 +7614,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1862857792277899936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7393,6 +7670,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1875284847647206529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7524,6 +7808,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1929498041197570565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7646,6 +7937,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1966940299146188511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7843,6 +8141,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &1984857982766926831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8001,6 +8306,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2065204110856497612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8072,6 +8384,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2079198871499343787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8189,6 +8508,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2146177733785547258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8289,6 +8615,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2155359933016808844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8352,6 +8685,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2170616953253253913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8425,6 +8765,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2211776016538629896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8492,6 +8839,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2232591718336819497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8541,6 +8895,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2261213076707764355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8643,6 +9004,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2286709040027539041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8958,7 +9326,7 @@ Transform:
   - {fileID: 1886428183}
   - {fileID: 177644592}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2442459000208208941
 GameObject:
@@ -9297,6 +9665,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2519013050850044739
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9378,6 +9753,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2531794342942808905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9574,6 +9956,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2606109951742688679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9660,6 +10049,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2619724740033952973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9774,6 +10170,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2658130904421700144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10185,6 +10588,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2743262370223673517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10271,6 +10681,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2762581551744151951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10350,6 +10767,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2814368653584866235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10399,6 +10823,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2818815813171124396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10472,6 +10903,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2842065582394780506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10703,6 +11141,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2928973159560171757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10803,6 +11248,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2944629263176769581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10860,6 +11312,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2952035692360810133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10927,6 +11386,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &2964489798052151959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10976,6 +11442,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3003773276900653584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11088,6 +11561,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3029701680165213813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11137,6 +11617,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3034456423318526130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11237,6 +11724,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3062100429847566644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11339,6 +11833,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3072912659472667393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11428,6 +11929,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3130806658516410789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11663,6 +12171,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3247537373996562046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11977,6 +12492,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TotalTime: 12
   TimeText: {fileID: 3319409525592377037}
+  tipsOne: {fileID: 408180248}
+  tipsTwo: {fileID: 1659326556}
+  gameStart: 0
 --- !u!114 &3319409525672105217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12026,7 +12544,7 @@ RectTransform:
   m_Children:
   - {fileID: 3319409525592377025}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12184,7 +12702,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3346746704237532204
 GameObject:
@@ -12274,6 +12792,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3348758909481609459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12337,6 +12862,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3351178703045085808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12890,6 +13422,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3477239502663317090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13039,6 +13578,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3532498141674454209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13200,6 +13746,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3630122542367516418
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13288,6 +13841,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3656921225483988696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13415,6 +13975,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3684743636289914554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13714,6 +14281,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3839319601834178661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13955,6 +14529,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &3923569139027640501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14273,6 +14854,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4014046303708877197
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14330,6 +14918,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4060220136274057939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14492,6 +15087,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4137882647462345235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15124,6 +15726,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4401583510220986999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15393,6 +16002,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4486867101344969451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15448,7 +16064,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4488297498850042963
 MonoBehaviour:
@@ -15462,7 +16078,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 485537f2ae5720642b7d5f769ba73504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  afterBuild: 0
   standardTurrentPrefab: {fileID: -927199367670048503, guid: b53798be488961d4b85cad860d9d40a8,
     type: 3}
   anotherTurrentPrefab: {fileID: -927199367670048503, guid: fdbf372717a524542a87bb8ec3ce3471,
@@ -15589,6 +16204,7 @@ MonoBehaviour:
   waveRateRight: 9
   LeftEnemyStartSpawnTime: 3
   RightEnemyStartSpawnTime: 6
+  gameStart: 0
 --- !u!1 &4516301412519990034
 GameObject:
   m_ObjectHideFlags: 0
@@ -15790,6 +16406,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4601657267348741320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15890,6 +16513,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4629282684690387849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15976,6 +16606,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4637221470316160803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16478,6 +17115,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4743593147205938296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16795,6 +17439,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &4922715122267373868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16979,7 +17630,7 @@ Transform:
   - {fileID: 7622598362815749731}
   - {fileID: 5879870789229032553}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5030688919817867337
 MeshFilter:
@@ -17150,6 +17801,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5062233254149155297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17213,6 +17871,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5102888346799219057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17299,6 +17964,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5112676121992627697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17348,6 +18020,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5114027234202322552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17419,6 +18098,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5185575686799831116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17468,6 +18154,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5187433029212009014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17605,6 +18298,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5205235314920386259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17870,6 +18570,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5288913937280525738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17919,6 +18626,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5289957917063024566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17968,6 +18682,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5297208694194378360
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18049,6 +18770,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5316994365486044434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18397,6 +19125,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5435392283154723146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18713,6 +19448,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5547803737284098490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18820,7 +19562,7 @@ PrefabInstance:
     - target: {fileID: 5598772905579744044, guid: b59d3106b13332144be3a6a6a6426e8f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5598772905579744044, guid: b59d3106b13332144be3a6a6a6426e8f,
         type: 3}
@@ -19024,6 +19766,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5645518539306984283
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19220,6 +19969,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5710732692142321514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19645,6 +20401,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5914769678818483525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19786,6 +20549,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &5938945179874898158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19994,6 +20764,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6021082046640347646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20088,6 +20865,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6060569335819812440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20175,6 +20959,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6082896946464240848
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20346,6 +21137,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6154632772987134776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20748,6 +21546,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6270660358455268816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20991,6 +21796,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6333601977349168092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21232,6 +22044,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6448921245217178237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21325,6 +22144,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6473915955029871630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21510,6 +22336,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6552388052134704562
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21733,6 +22566,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6642280386194793609
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21818,6 +22658,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6677850357362703218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22019,6 +22866,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6762768782908576565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22086,6 +22940,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6773541420640077795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22397,6 +23258,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6918929119222560746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22491,6 +23359,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &6945326774369854408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22698,6 +23573,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7048931369280489970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22884,7 +23766,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7087778380232185466
 MonoBehaviour:
@@ -22965,6 +23847,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7103208330296756060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23144,6 +24033,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7112141206243818197
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23193,6 +24089,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7124701635913071474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23353,6 +24256,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7140485321892952956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23696,6 +24606,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7329117352331382193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23964,7 +24881,7 @@ Transform:
   - {fileID: 2138285178}
   - {fileID: 56468371}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7473219615216421295
 GameObject:
@@ -24181,6 +25098,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7494596905563568293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24230,6 +25154,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7497605201742527121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24415,6 +25346,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7574683635921444726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24472,6 +25410,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7582401318483707117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24615,6 +25560,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7606982793461746374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24700,6 +25652,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7647459060019193444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24979,6 +25938,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7756526977736129580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25074,6 +26040,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7803209487738113776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25233,6 +26206,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7866769423143537694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25452,6 +26432,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7934503383742518662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25501,6 +26488,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7950035750990727885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25550,6 +26544,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7960505935793515758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25613,6 +26614,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &7984804989897326230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25753,6 +26761,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8023622170758292973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25802,6 +26817,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8037887714687896712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25956,6 +26978,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8171512733585335432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26019,6 +27048,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8180534237173175353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26241,6 +27277,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8232171856828569271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26420,6 +27463,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8253700718435970851
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26477,6 +27527,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8257566725746530378
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26580,6 +27637,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8311815552878054848
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26683,6 +27747,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8330479963938451467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26844,6 +27915,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8366846069584268564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26961,6 +28039,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8464820581377174384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27077,6 +28162,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8490087356918225251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27126,6 +28218,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8496753998695565572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27603,6 +28702,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8716087920336669005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27652,6 +28758,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8722600340893552166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27701,6 +28814,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8726806265252140025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27750,6 +28870,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8743260591902266838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28125,6 +29252,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8864646373251106974
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28188,6 +29322,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8884742521736643392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28348,6 +29489,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8949790369745126590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28478,6 +29626,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &8998311884261244210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28737,6 +29892,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &9053244612229647281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29082,6 +30244,13 @@ MonoBehaviour:
   notEnoughMoneyColor: {r: 0.754717, g: 0.29547882, b: 0.29547882, a: 0}
   positionOffset: {x: 0, y: 1, z: 0}
   turrent: {fileID: 0}
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0
+  afterBuild: 0
 --- !u!65 &9206568042139255752
 BoxCollider:
   m_ObjectHideFlags: 0

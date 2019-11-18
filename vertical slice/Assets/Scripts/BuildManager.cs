@@ -5,7 +5,7 @@ using UnityEngine;
 public class BuildManager : MonoBehaviour
 {
     public static BuildManager instance;
-    public bool afterBuild = false;
+    
     private void Awake()
     {
         if(instance != null)
@@ -26,43 +26,35 @@ public class BuildManager : MonoBehaviour
     public bool CanBuild { get { return turrentToBuild != null; } }
     public bool HasMoney { get { return PlayerStats.Money >= turrentToBuild.cost; } }
 
-    public void BuildTurrentOn (MapCube mapCube)
-    {
-        
-        if(afterBuild == false)
-        {
-            if(PlayerStats.Money < turrentToBuild.cost)
-            {
-                Debug.Log("No money");
-                return;
-            }
-
-            PlayerStats.Money -= turrentToBuild.cost;
-
-            GameObject turrent = (GameObject)Instantiate(turrentToBuild.prefab, mapCube.GetBuildPosition(), Quaternion.identity);
-            mapCube.turrent = turrent;
-            SoundManager.PlaySound("Build1");
-        }
-        afterBuild = true;
-        
-    }
-    private void Start()
-    {
-
-    }
 
     public void SelectNode(MapCube node)
     {
+        if(selectedTurret == node)
+        {
+            DeselectNode();
+            return;
+        }
+
         selectedTurret = node;
         turrentToBuild = null;
 
         selectionUI.SetTarget(node);
     }
 
+    public void DeselectNode()
+    {
+        selectedTurret = null;
+        selectionUI.Hide();
+    }
+
     public void SelectTurrentBuild (TurrentBlueprint turrent)
     {
         turrentToBuild = turrent;
-        selectedTurret = null;
+        DeselectNode();
     }
-   
+
+    public TurrentBlueprint GetTurrentToBuild()
+    {
+        return turrentToBuild;
+    }
 }
