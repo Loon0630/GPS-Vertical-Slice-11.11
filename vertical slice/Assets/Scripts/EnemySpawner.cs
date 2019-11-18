@@ -14,10 +14,28 @@ public class EnemySpawner : MonoBehaviour
     public float LeftEnemyStartSpawnTime = 3f;
     public float RightEnemyStartSpawnTime = 6f;
 
+    public int gameStart;
 
     void Start()
     {
+        gameStart = 2;
+    }
+    public void CountDownEnemy()
+    {
+        gameStart -= 1;
+    }
+    public void Update()
+    {
+        if (gameStart == 1)
+        {
+            StartCountDown();
+        }
+    }
+
+    void StartCountDown()
+    {
         StartCoroutine(WaitPlayer());
+        gameStart--;
     }
 
     public IEnumerator WaitPlayer()

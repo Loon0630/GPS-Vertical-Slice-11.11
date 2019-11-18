@@ -10,12 +10,37 @@ public class CountDown : MonoBehaviour
     CanvasGroup canvasGroup;
     private int mumite;
     private int second;
+    public GameObject tipsOne;
+    public GameObject tipsTwo;
+    public int gameStart;
+
+    public AudioClip MusicClip;
+    public AudioSource MusicSource;
 
     void Start()
+    {
+        tipsOne.SetActive(true);
+        gameStart = 2;
+    }
+    public void letGameStart()
+    {
+        gameStart -= 1;
+    }
+    public void Update()
+    {
+        if(gameStart == 1)
+        {
+            StartGame();
+        }
+    }
+
+    void StartGame()
     {
         StartCoroutine(StartTime());
         canvasGroup = GetComponentInChildren<CanvasGroup>();
         StartCoroutine(Close());
+        MusicSource.clip = MusicClip;
+
     }
 
     public IEnumerator StartTime()
