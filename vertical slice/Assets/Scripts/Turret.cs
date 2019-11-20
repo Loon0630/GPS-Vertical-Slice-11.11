@@ -27,6 +27,7 @@ public class Turret : MonoBehaviour
     public LineRenderer lineRenderer;
     public float curDamageOverTime;
 
+    public MapCube selfMapCube;
 
     void Start()
     {
@@ -167,5 +168,11 @@ public class Turret : MonoBehaviour
     public void Activateturret()
     {
         isActivated = true;
+    }
+
+    private void OnMouseDown()
+    {
+        Debug.Log("TEST");
+        FindObjectOfType<SelectionUI>().SetTarget(selfMapCube); // Here select the turret
     }
 }

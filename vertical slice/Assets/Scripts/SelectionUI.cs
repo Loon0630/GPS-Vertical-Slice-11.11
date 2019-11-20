@@ -20,6 +20,7 @@ public class SelectionUI : MonoBehaviour
 
         transform.position = target.GetBuildPosition();
 
+        ui.SetActive(true);
         if (!target.isUpgraded)
         {
             upgradeCost.text = "$" + target.turrentBlueprint.upgradeCost;
@@ -32,8 +33,6 @@ public class SelectionUI : MonoBehaviour
         }
 
         sellAmount.text = "$" + target.turrentBlueprint.GetSellAmount();
-
-        ui.SetActive(true);
     }
 
     public void Hide()
@@ -52,8 +51,4 @@ public class SelectionUI : MonoBehaviour
         target.SellTurret();
         BuildManager.instance.DeselectNode();
     }
-
-
-
-
 }

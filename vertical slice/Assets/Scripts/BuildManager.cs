@@ -23,13 +23,36 @@ public class BuildManager : MonoBehaviour
     private MapCube selectedTurret;
     public SelectionUI selectionUI;
 
+    public bool afterBuild = false;
+
     public bool CanBuild { get { return turrentToBuild != null; } }
     public bool HasMoney { get { return PlayerStats.Money >= turrentToBuild.cost; } }
 
+    public void BuildTurrentOn(MapCube mapCube)
+    {
+
+        if (afterBuild == false)
+        {
+            if (PlayerStats.Money < turrentToBuild.cost)
+            {
+                Debug.Log("No money");
+                return;
+            }
+
+            PlayerStats.Money -= turrentToBuild.cost;
+
+            GameObject turrent = (GameObject)Instantiate(turrentToBuild.prefab, mapCube.GetBuildPosition(), Quaternion.identity);
+            mapCube.turrent = turrent;
+            mapCube.turrent.GetComponent<Turret>().selfMapCube = mapCube;
+            SoundManager.PlaySound("Build1");
+        }
+        afterBuild = true;
+
+    }
 
     public void SelectNode(MapCube node)
     {
-        if(selectedTurret == node)
+        if (selectedTurret == node)
         {
             DeselectNode();
             return;
@@ -47,14 +70,9 @@ public class BuildManager : MonoBehaviour
         selectionUI.Hide();
     }
 
-    public void SelectTurrentBuild (TurrentBlueprint turrent)
+    public void SelectTurrentBuild(TurrentBlueprint turrent)
     {
         turrentToBuild = turrent;
         DeselectNode();
-    }
-
-    public TurrentBlueprint GetTurrentToBuild()
-    {
-        return turrentToBuild;
     }
 }

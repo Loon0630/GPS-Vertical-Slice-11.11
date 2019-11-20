@@ -14,12 +14,10 @@ public class MapCube : MonoBehaviour
     public TurrentBlueprint turrentBlueprint;
     public bool isUpgraded = false;
 
-
     private Renderer rend;
     private Color startColor;
 
     BuildManager buildManager;
-    public bool afterBuild = false;
 
     private void Start()
     {
@@ -36,7 +34,6 @@ public class MapCube : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("test");
         if (turrent != null)
         {
             buildManager.SelectNode(this);
@@ -46,30 +43,7 @@ public class MapCube : MonoBehaviour
         if (!buildManager.CanBuild)
             return;
 
-        BuildTurrentOn(buildManager.GetTurrentToBuild());
-    }
-
-    public void BuildTurrentOn(TurrentBlueprint blueprint)
-    {
-
-        if (afterBuild == false)
-        {
-            if (PlayerStats.Money < blueprint.cost)
-            {
-                Debug.Log("No money");
-                return;
-            }
-
-            PlayerStats.Money -= blueprint.cost;
-
-            GameObject _turrent = (GameObject)Instantiate(blueprint.prefab, GetBuildPosition(), Quaternion.identity);
-            turrent = _turrent;
-
-            turrentBlueprint = blueprint;
-            SoundManager.PlaySound("Build1");
-        }
-        afterBuild = true;
-
+        buildManager.BuildTurrentOn(this);
     }
 
     public void UpgradeTurret()
@@ -100,10 +74,10 @@ public class MapCube : MonoBehaviour
 
     void OnMouseEnter()
     {
-       if (!buildManager.CanBuild)
-           return;
+        if (!buildManager.CanBuild)
+            return;
 
-       if(afterBuild == false)
+        if (buildManager.afterBuild == false)
         {
             if (buildManager.HasMoney)
             {
@@ -114,8 +88,8 @@ public class MapCube : MonoBehaviour
                 rend.material.color = notEnoughMoneyColor;
             }
         }
-       
-       
+
+
     }
 
     private void OnMouseExit()
