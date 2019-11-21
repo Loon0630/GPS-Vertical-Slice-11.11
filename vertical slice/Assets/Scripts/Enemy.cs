@@ -60,6 +60,7 @@ public class Enemy : MonoBehaviour
     {
         PlayerStats.Lives--;
         //BeenHitTypeB.Instance.HitShake();
+        GameObject.Find("FlashPanel").GetComponent<BeenHitTypeA>().TakeDamage();
         GameObject.Find("Main Camera").GetComponent<BeenHitTypeB>().HitShake();
         GameObject.Destroy(this.gameObject);
     }

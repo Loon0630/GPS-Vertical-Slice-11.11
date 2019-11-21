@@ -53,6 +53,7 @@ public class EnemyRight : MonoBehaviour
     void ReachDestination()//Link with improve founction 01(EnemySpawner) - When Enemy arrive at end point
     {
         PlayerStats.Lives--;
+        GameObject.Find("FlashPanel").GetComponent<BeenHitTypeA>().TakeDamage();
         GameObject.Find("Main Camera").GetComponent<BeenHitTypeB>().HitShake();
         GameObject.Destroy(this.gameObject);
     }

@@ -8,7 +8,7 @@ public class BeenHitTypeB : MonoBehaviour
     private float shakeDelta = 0.005f;
     public Camera cam;
     public static bool isshakeCamera = false;
-    public static BeenHitTypeB Instance;
+    //public static BeenHitTypeB Instance;
     // Use this for initialization
     void Start()
     {
