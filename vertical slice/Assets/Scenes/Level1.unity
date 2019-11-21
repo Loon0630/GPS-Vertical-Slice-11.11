@@ -650,16 +650,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626942068}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9267a21b6a8491145ac824acc659910d,
-        type: 3}
-      propertyPath: m_Name
-      value: darkness_character_treasurehunter2
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9267a21b6a8491145ac824acc659910d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9267a21b6a8491145ac824acc659910d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -729,6 +719,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.26
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9267a21b6a8491145ac824acc659910d,
+        type: 3}
+      propertyPath: m_Name
+      value: darkness_character_treasurehunter2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9267a21b6a8491145ac824acc659910d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 9267a21b6a8491145ac824acc659910d,
         type: 3}
@@ -5660,16 +5660,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 626942068}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
-        type: 3}
-      propertyPath: m_Name
-      value: darkness_character_treasurehunter (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5739,6 +5729,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
+        type: 3}
+      propertyPath: m_Name
+      value: darkness_character_treasurehunter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1, type: 3}
@@ -11058,6 +11058,7 @@ GameObject:
   - component: {fileID: 1074188232}
   - component: {fileID: 1074188235}
   - component: {fileID: 1074188236}
+  - component: {fileID: 1074188237}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -11238,6 +11239,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb1816498bd6b34a9daa9b7429a232c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1074188237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074188231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8ffd31236dbf7479093e9133809513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1074188233}
 --- !u!4 &1084741686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2927131764877353215, guid: 1b652c0afb5e07747a0e2cd6c1167465,
@@ -16896,11 +16910,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 549937308}
     m_Modifications:
-    - target: {fileID: 717988796023081891, guid: d633c43595d0956479bc1af0aef109ca,
-        type: 3}
-      propertyPath: m_Name
-      value: View Visualization
-      objectReference: {fileID: 0}
     - target: {fileID: 717988796023081902, guid: d633c43595d0956479bc1af0aef109ca,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16955,6 +16964,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 717988796023081891, guid: d633c43595d0956479bc1af0aef109ca,
+        type: 3}
+      propertyPath: m_Name
+      value: View Visualization
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d633c43595d0956479bc1af0aef109ca, type: 3}
@@ -23447,6 +23461,7 @@ MonoBehaviour:
     type: 3}
   mirrorTurrentPrefab: {fileID: 0}
   selectionUI: {fileID: 777957619}
+  afterBuild: 0
 --- !u!1 &4488297498850042964
 GameObject:
   m_ObjectHideFlags: 0

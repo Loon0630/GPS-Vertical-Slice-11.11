@@ -169,16 +169,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 716387556}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9267a21b6a8491145ac824acc659910d,
-        type: 3}
-      propertyPath: m_Name
-      value: darkness_character_treasurehunter2
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 9267a21b6a8491145ac824acc659910d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9267a21b6a8491145ac824acc659910d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -248,6 +238,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.26
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9267a21b6a8491145ac824acc659910d,
+        type: 3}
+      propertyPath: m_Name
+      value: darkness_character_treasurehunter2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9267a21b6a8491145ac824acc659910d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 9267a21b6a8491145ac824acc659910d,
         type: 3}
@@ -1046,16 +1046,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 716387556}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
-        type: 3}
-      propertyPath: m_Name
-      value: darkness_character_treasurehunter (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: -927199367670048503, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1125,6 +1115,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
+        type: 3}
+      propertyPath: m_Name
+      value: darkness_character_treasurehunter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37a36e1aa5767a14faf85c6a0b3ca8a1, type: 3}
@@ -1345,6 +1345,7 @@ GameObject:
   - component: {fileID: 1074188232}
   - component: {fileID: 1074188236}
   - component: {fileID: 1074188235}
+  - component: {fileID: 1074188237}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1525,6 +1526,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1074188237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074188231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8ffd31236dbf7479093e9133809513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1074188233}
 --- !u!1 &1287572693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +2204,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &32562737265912003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2357,7 +2370,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &41397514369444413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2517,7 +2529,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &80776986236288588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2717,7 +2728,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &179933644652514191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2865,7 +2875,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &241351515081484144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3011,7 +3020,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &294468851936546795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3067,7 +3075,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &304866745048450999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3244,7 +3251,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &381619883916031351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3453,7 +3459,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &445069798683068806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3509,7 +3514,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &450140268891890763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3657,7 +3661,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &511063794137617350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3713,7 +3716,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &513799128327019383
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3873,7 +3875,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &564384905078974962
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3959,7 +3960,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &593704573304652085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4052,7 +4052,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &631991262526457849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4126,7 +4125,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &655615971768017721
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4190,7 +4188,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &668526867817344503
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4291,7 +4288,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &704329059532309373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4365,7 +4361,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &718690832079032105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4421,7 +4416,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &725741523731381326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4477,7 +4471,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &735657337266664959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4724,7 +4717,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &816004542275160616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4825,7 +4817,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &835990237768755825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4969,7 +4960,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &907735888231336308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5052,7 +5042,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &916246659510394701
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5189,7 +5178,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &955799105182093551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5308,7 +5296,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &993170935604346159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5409,7 +5396,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1021722472539015271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5572,7 +5558,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1049145449614065212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6120,7 +6105,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1228017909293215045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6419,7 +6403,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1279963106186175964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6653,7 +6636,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1349347759626984807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6709,7 +6691,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1371101082505753764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6902,7 +6883,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1475840094634059652
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7287,7 +7267,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1610744108028719805
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7691,7 +7670,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1747725048913256904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7747,7 +7725,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1748475747777848715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7939,7 +7916,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1822241328686997242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7995,7 +7971,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1862857792277899936
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8051,7 +8026,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1875284847647206529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8189,7 +8163,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1929498041197570565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8356,7 +8329,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1966940299146188511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8560,7 +8532,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &1984857982766926831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8821,7 +8792,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2065204110856497612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8899,7 +8869,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2079198871499343787
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9023,7 +8992,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2146177733785547258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9130,7 +9098,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2155359933016808844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9200,7 +9167,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2170616953253253913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9288,7 +9254,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2211776016538629896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9362,7 +9327,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2232591718336819497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9418,7 +9382,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2261213076707764355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9527,7 +9490,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2286709040027539041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10271,7 +10233,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2519013050850044739
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10359,7 +10320,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2531794342942808905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10581,7 +10541,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2606109951742688679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10674,7 +10633,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2619724740033952973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10795,7 +10753,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2658130904421700144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11213,7 +11170,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2743262370223673517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11328,7 +11284,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2762581551744151951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11498,7 +11453,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2814368653584866235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11554,7 +11508,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2818815813171124396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11634,7 +11587,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2842065582394780506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11872,7 +11824,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2928973159560171757
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11979,7 +11930,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2944629263176769581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12043,7 +11993,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2952035692360810133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12117,7 +12066,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &2964489798052151959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12173,7 +12121,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3003773276900653584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12292,7 +12239,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3029701680165213813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12348,7 +12294,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3034456423318526130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12455,7 +12400,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3062100429847566644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12564,7 +12508,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3072912659472667393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12680,7 +12623,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3130806658516410789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12978,7 +12920,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3247537373996562046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13715,7 +13656,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3348758909481609459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13785,7 +13725,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3351178703045085808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14403,7 +14342,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3477239502663317090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14588,7 +14526,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3532498141674454209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14804,7 +14741,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3630122542367516418
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14928,7 +14864,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3656921225483988696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15082,7 +15017,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3684743636289914554
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15388,7 +15322,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3839319601834178661
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15636,7 +15569,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &3923569139027640501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15979,7 +15911,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4014046303708877197
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16043,7 +15974,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4060220136274057939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16212,7 +16142,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4137882647462345235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16880,7 +16809,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4401583510220986999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17156,7 +17084,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4486867101344969451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17233,6 +17160,7 @@ MonoBehaviour:
     type: 3}
   mirrorTurrentPrefab: {fileID: 0}
   selectionUI: {fileID: 0}
+  afterBuild: 0
 --- !u!1 &4488297498850042964
 GameObject:
   m_ObjectHideFlags: 0
@@ -17561,7 +17489,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4601657267348741320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17668,7 +17595,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4629282684690387849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17761,7 +17687,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4637221470316160803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18289,7 +18214,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4743593147205938296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18690,7 +18614,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &4922715122267373868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19060,7 +18983,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5062233254149155297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19130,7 +19052,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5102888346799219057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19223,7 +19144,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5112676121992627697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19279,7 +19199,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5114027234202322552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19357,7 +19276,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5185575686799831116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19413,7 +19331,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5187433029212009014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19557,7 +19474,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5205235314920386259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19935,7 +19851,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5288913937280525738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19991,7 +19906,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5289957917063024566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20047,7 +19961,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5297208694194378360
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20198,7 +20111,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5316994365486044434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20553,7 +20465,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5435392283154723146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20884,7 +20795,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5547803737284098490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21136,7 +21046,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5645518539306984283
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21373,7 +21282,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5710732692142321514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21863,7 +21771,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5914769678818483525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22032,7 +21939,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &5938945179874898158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22316,7 +22222,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6021082046640347646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22417,7 +22322,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6060569335819812440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22519,7 +22423,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6082896946464240848
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22697,7 +22600,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6154632772987134776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23133,7 +23035,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6270660358455268816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23383,7 +23284,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6333601977349168092
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23639,7 +23539,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6448921245217178237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23739,7 +23638,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6473915955029871630
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23950,7 +23848,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6552388052134704562
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24180,7 +24077,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6642280386194793609
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24272,7 +24168,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6677850357362703218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24480,7 +24375,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6762768782908576565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24554,7 +24448,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6773541420640077795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25008,7 +24901,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6918929119222560746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25109,7 +25001,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &6945326774369854408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25323,7 +25214,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7048931369280489970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25597,7 +25487,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7103208330296756060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25783,7 +25672,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7112141206243818197
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25839,7 +25727,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7124701635913071474
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26006,7 +25893,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7140485321892952956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26502,7 +26388,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7329117352331382193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27030,7 +26915,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7494596905563568293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27086,7 +26970,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7497605201742527121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27298,7 +27181,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7574683635921444726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27362,7 +27244,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7582401318483707117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27531,7 +27412,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7606982793461746374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30670,7 +30550,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7647459060019193444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30956,7 +30835,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7756526977736129580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31077,7 +30955,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7803209487738113776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31243,7 +31120,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7866769423143537694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31514,7 +31390,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7934503383742518662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31570,7 +31445,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7950035750990727885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31626,7 +31500,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7960505935793515758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31725,7 +31598,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &7984804989897326230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31872,7 +31744,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8023622170758292973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31928,7 +31799,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8037887714687896712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32089,7 +31959,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8171512733585335432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32159,7 +32028,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8180534237173175353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32388,7 +32256,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8232171856828569271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32590,7 +32457,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8253700718435970851
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32654,7 +32520,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8257566725746530378
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32764,7 +32629,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8311815552878054848
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32874,7 +32738,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8330479963938451467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33071,7 +32934,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8366846069584268564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33214,7 +33076,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8464820581377174384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33337,7 +33198,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8490087356918225251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33393,7 +33253,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8496753998695565572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33907,7 +33766,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8716087920336669005
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33963,7 +33821,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8722600340893552166
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34019,7 +33876,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8726806265252140025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34075,7 +33931,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8743260591902266838
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34476,7 +34331,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8864646373251106974
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34546,7 +34400,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8884742521736643392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34713,7 +34566,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8949790369745126590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34858,7 +34710,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &8998311884261244210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35143,7 +34994,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &9053244612229647281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35524,7 +35374,6 @@ MonoBehaviour:
     upgradedPrefab: {fileID: 0}
     upgradeCost: 0
   isUpgraded: 0
-  afterBuild: 0
 --- !u!65 &9206568042139255752
 BoxCollider:
   m_ObjectHideFlags: 0
