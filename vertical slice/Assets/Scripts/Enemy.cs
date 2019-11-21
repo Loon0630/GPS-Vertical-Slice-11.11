@@ -59,6 +59,8 @@ public class Enemy : MonoBehaviour
     void ReachDestination()//Link with improve founction 01(EnemySpawner) - When Enemy arrive at end point
     {
         PlayerStats.Lives--;
+        //BeenHitTypeB.Instance.HitShake();
+        GameObject.Find("Main Camera").GetComponent<BeenHitTypeB>().HitShake();
         GameObject.Destroy(this.gameObject);
     }
 

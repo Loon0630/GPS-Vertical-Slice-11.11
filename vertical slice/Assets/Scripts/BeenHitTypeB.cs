@@ -8,6 +8,7 @@ public class BeenHitTypeB : MonoBehaviour
     private float shakeDelta = 0.005f;
     public Camera cam;
     public static bool isshakeCamera = false;
+    public static BeenHitTypeB Instance;
     // Use this for initialization
     void Start()
     {
@@ -22,10 +23,10 @@ public class BeenHitTypeB : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        /*if (Input.GetMouseButtonDown(0))
         {
             isshakeCamera = true;
-        }
+        }*/
         if (isshakeCamera)
         {
             if (shakeTime > 0)
@@ -52,5 +53,10 @@ public class BeenHitTypeB : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void HitShake()
+    {
+        isshakeCamera = true;
     }
 }
