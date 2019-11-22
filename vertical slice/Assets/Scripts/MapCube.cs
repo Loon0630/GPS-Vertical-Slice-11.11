@@ -44,6 +44,7 @@ public class MapCube : MonoBehaviour
             return;
 
         buildManager.BuildTurrentOn(this);
+        turrentBlueprint = turrent.GetComponent<Turret>().turrentBlueprint;
     }
 
     public void UpgradeTurret()
@@ -59,7 +60,8 @@ public class MapCube : MonoBehaviour
 
         GameObject _turret = (GameObject)Instantiate(turrentBlueprint.upgradedPrefab, GetBuildPosition(), Quaternion.identity);
         turrent = _turret;
-
+        turrent.GetComponent<Turret>().selfMapCube = this;
+        turrentBlueprint = turrent.GetComponent<Turret>().turrentBlueprint;
         isUpgraded = true;
 
     }

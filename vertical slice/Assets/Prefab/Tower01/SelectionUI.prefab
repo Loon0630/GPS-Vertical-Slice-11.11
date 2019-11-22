@@ -121,7 +121,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8148888326960434725}
-        m_MethodName: Upgrade
+        m_MethodName: Sell
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -491,8 +491,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui: {fileID: 8148888326106335215}
   upgradeCost: {fileID: 8148888327383142112}
-  upgradeButton: {fileID: 0}
-  sellAmount: {fileID: 0}
+  upgradeButton: {fileID: 8148888326262391770}
+  sellAmount: {fileID: 8148888326284998326}
 --- !u!1 &8148888326981160217
 GameObject:
   m_ObjectHideFlags: 0

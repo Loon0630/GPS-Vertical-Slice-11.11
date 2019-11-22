@@ -23,7 +23,7 @@ public class SelectionUI : MonoBehaviour
         ui.SetActive(true);
         if (!target.isUpgraded)
         {
-            upgradeCost.text = "$" + target.turrentBlueprint.upgradeCost;
+            upgradeCost.text = "$" + target.turrent.GetComponent<Turret>().turrentBlueprint.upgradeCost;
             upgradeButton.interactable = true;
         }
         else

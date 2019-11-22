@@ -26,6 +26,8 @@ public class Turret : MonoBehaviour
     [SerializeField] private int increasedDamage = 5;
     public LineRenderer lineRenderer;
     public float curDamageOverTime;
+    public TurrentBlueprint turrentBlueprint;
+
 
     public MapCube selfMapCube;
 

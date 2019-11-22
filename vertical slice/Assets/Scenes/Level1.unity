@@ -25948,8 +25948,9 @@ MonoBehaviour:
   rocketTurrent:
     prefab: {fileID: 1367763347309599035, guid: e8709694d6ffed143a6bae61aa76da5e,
       type: 3}
-    cost: 65
-    upgradedPrefab: {fileID: 0}
+    cost: 60
+    upgradedPrefab: {fileID: 6492387247307390260, guid: d16aae35b7630f44a8729b89e4c7b6fb,
+      type: 3}
     upgradeCost: 10
   MirrorTurrent:
     prefab: {fileID: -927199367670048503, guid: a9b0102d685cd6143b642a08baf37f32,

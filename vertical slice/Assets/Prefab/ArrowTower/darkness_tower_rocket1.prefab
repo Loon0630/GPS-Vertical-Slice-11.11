@@ -93,6 +93,13 @@ MonoBehaviour:
   increasedDamage: 5
   lineRenderer: {fileID: 0}
   curDamageOverTime: 0
+  turrentBlueprint:
+    prefab: {fileID: 1367763347309599035}
+    cost: 60
+    upgradedPrefab: {fileID: 6492387247307390260, guid: d16aae35b7630f44a8729b89e4c7b6fb,
+      type: 3}
+    upgradeCost: 30
+  selfMapCube: {fileID: 0}
 --- !u!1 &8598220397205528147
 GameObject:
   m_ObjectHideFlags: 0
