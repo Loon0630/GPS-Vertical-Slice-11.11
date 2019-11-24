@@ -36,6 +36,7 @@ public class BuildManager : MonoBehaviour
             if (PlayerStats.Money < turrentToBuild.cost)
             {
                 Debug.Log("No money");
+                SoundManager.PlaySound("NoMoney");
                 return;
             }
 
