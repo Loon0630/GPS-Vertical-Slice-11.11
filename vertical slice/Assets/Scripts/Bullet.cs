@@ -38,6 +38,16 @@ public class Bullet : MonoBehaviour
                 HitTargetRight();
                 target.GetComponent<EnemyRight>().TakeDamage(damage);
             }
+            else if (target.GetComponent<Enemy2>() == true)
+            {
+                HitTarget2();
+                target.GetComponent<Enemy2>().TakeDamage(damage);
+            }
+            else if (target.GetComponent<EnemyRight2>() == true)
+            {
+                HitTargetRight2();
+                target.GetComponent<EnemyRight2>().TakeDamage(damage);
+            }
 
             Die();
             return;
@@ -76,7 +86,59 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject);
     }
 
+    void HitTarget2()
+    {
+        GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+        Destroy(effectIns, 2f);
+
+        if (expRadius > 0f)
+        {
+            Explode();
+        }
+        else
+        {
+            Damage(target);
+        }
+
+        //Destroy(target.gameObject);
+        //PlayerStats.Money += EarnMoney;
+        Destroy(gameObject);
+    }
+
     void HitTargetRight()
+    {
+        GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+        Destroy(effectIns, 2f);
+
+        if (expRadius > 0f)
+        {
+            Explode();
+        }
+        else
+        {
+            Damage(target);
+        }
+
+        //Destroy(target.gameObject);
+        //PlayerStats.Money += EarnMoney;
+        Destroy(gameObject);
+        /*GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+        Destroy(effectIns, 2f);
+
+        if (expRadius > 0f)
+        {
+            Explode();
+        }
+        else
+        {
+            Damage(target);
+        }
+
+        //Destroy(target.gameObject);
+        Destroy(gameObject);*/
+    }
+
+    void HitTargetRight2()
     {
         GameObject effectIns = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(effectIns, 2f);
