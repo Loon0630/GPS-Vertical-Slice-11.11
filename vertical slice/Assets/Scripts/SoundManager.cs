@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public static AudioClip arrowOne, rocketOne, winOne, buildOne, startSound;
+    public static AudioClip arrowOne, rocketOne, winOne, buildOne, startSound, playerTakeDamage, NoMoneySound;
 
     static AudioSource audioSrc;
 
@@ -16,6 +16,8 @@ public class SoundManager : MonoBehaviour
         winOne = Resources.Load<AudioClip>("Win1");
         buildOne = Resources.Load<AudioClip>("Build1");
         startSound = Resources.Load<AudioClip>("Startsound");
+        playerTakeDamage = Resources.Load<AudioClip>("Takendamage");
+        NoMoneySound = Resources.Load<AudioClip>("NoMoney");
 
         audioSrc = GetComponent<AudioSource>();
     }
@@ -48,6 +50,14 @@ public class SoundManager : MonoBehaviour
 
             case "Startsound":
                 audioSrc.PlayOneShot(startSound);
+                break;
+
+            case "Takendamage":
+                audioSrc.PlayOneShot(playerTakeDamage);
+                break;
+
+            case "NoMoney":
+                audioSrc.PlayOneShot(NoMoneySound);
                 break;
         }
     }
