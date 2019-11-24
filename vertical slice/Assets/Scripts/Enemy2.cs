@@ -97,7 +97,7 @@ public class Enemy2 : MonoBehaviour
             continueDieTimer += 1.0f * Time.deltaTime;
             continueDieTimer = (continueDieTimer > 1.0f) ? 1.0f : continueDieTimer;
 
-            WarriorMaterial.material.SetFloat("_DissolveThreshold1", continueDieTimer);
+            WarriorMaterial.material.SetFloat("_DissolveThreshold", continueDieTimer);
 
             if (continueDieTimer >= 1.0f)
             {

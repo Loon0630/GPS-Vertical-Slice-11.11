@@ -32,21 +32,25 @@ public class Bullet : MonoBehaviour
             {
                 HitTarget();
                 target.GetComponent<Enemy>().TakeDamage(damage);
+                return;
             }
             else if (target.GetComponent<EnemyRight>() == true)
             {
                 HitTargetRight();
                 target.GetComponent<EnemyRight>().TakeDamage(damage);
+                return;
             }
             else if (target.GetComponent<Enemy2>() == true)
             {
                 HitTarget2();
                 target.GetComponent<Enemy2>().TakeDamage(damage);
+                return;
             }
             else if (target.GetComponent<EnemyRight2>() == true)
             {
                 HitTargetRight2();
                 target.GetComponent<EnemyRight2>().TakeDamage(damage);
+                return;
             }
 
             Die();
@@ -74,7 +78,7 @@ public class Bullet : MonoBehaviour
 
         if (expRadius > 0f)
         {
-            Explode();
+           Explode();
         }
         else
         {
@@ -84,6 +88,7 @@ public class Bullet : MonoBehaviour
         //Destroy(target.gameObject);
         //PlayerStats.Money += EarnMoney;
         Destroy(gameObject);
+        return;
     }
 
     void HitTarget2()
@@ -103,6 +108,7 @@ public class Bullet : MonoBehaviour
         //Destroy(target.gameObject);
         //PlayerStats.Money += EarnMoney;
         Destroy(gameObject);
+        return;
     }
 
     void HitTargetRight()
@@ -136,6 +142,7 @@ public class Bullet : MonoBehaviour
 
         //Destroy(target.gameObject);
         Destroy(gameObject);*/
+        return;
     }
 
     void HitTargetRight2()
@@ -169,6 +176,7 @@ public class Bullet : MonoBehaviour
 
         //Destroy(target.gameObject);
         Destroy(gameObject);*/
+        return;
     }
 
     void Explode()

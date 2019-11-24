@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class EnemyRight2 : MonoBehaviour
 {
+    public Renderer WarriorMaterial;
     public float speed = 10;
     public float hp = 150;//enemy damage
     private float totalHp;
@@ -12,6 +13,8 @@ public class EnemyRight2 : MonoBehaviour
     private Transform[] positions;
     private int index = 0;
     public int EarnMoney = 10;
+    public float dieTimer = 0.1f;
+    public float continueDieTimer;
 
     void Start()
     {
@@ -50,6 +53,8 @@ public class EnemyRight2 : MonoBehaviour
     void ReachDestination()//Link with improve founction 01(EnemySpawner) - When Enemy arrive at end point
     {
         PlayerStats.Lives--;
+        GameObject.Find("FlashPanel").GetComponent<BeenHitTypeA>().TakeDamage();
+        GameObject.Find("Main Camera").GetComponent<BeenHitTypeB>().HitShake();
         GameObject.Destroy(this.gameObject);
     }
 
@@ -71,7 +76,26 @@ public class EnemyRight2 : MonoBehaviour
     void Die()
     {
         PlayerStats.Money += EarnMoney;
-        GameObject.Destroy(this.gameObject);
+        StartCoroutine(WaitDie());
+    }
+
+    IEnumerator WaitDie()
+    {
+        while (true)
+        {
+            continueDieTimer += 1.0f * Time.deltaTime;
+            continueDieTimer = (continueDieTimer > 1.0f) ? 1.0f : continueDieTimer;
+
+            WarriorMaterial.material.SetFloat("_DissolveThreshold", continueDieTimer);
+
+            if (continueDieTimer >= 1.0f)
+            {
+                GameObject.Destroy(this.gameObject);
+                break;
+            }
+            //yield return new WaitForSecondsRealtime(1);        
+            yield return null;
+        }
+
     }
 }
-
