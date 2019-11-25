@@ -74,6 +74,11 @@ MonoBehaviour:
   increasedDamage: 5
   lineRenderer: {fileID: 7010621134574841851}
   curDamageOverTime: 0
+  turrentBlueprint:
+    prefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
   selfMapCube: {fileID: 0}
 --- !u!120 &7010621134574841851
 LineRenderer:
@@ -123,7 +128,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.17788506
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -257,8 +262,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8499701361930146817, guid: e9a80b6ed4673bf4b81505522e4c029c, type: 3}
-  - {fileID: 824015559753126921, guid: e9a80b6ed4673bf4b81505522e4c029c, type: 3}
+  - {fileID: 2100000, guid: 9a992bedf6e4699408088b8fab505d4c, type: 2}
+  - {fileID: 2100000, guid: 9a992bedf6e4699408088b8fab505d4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -420,8 +425,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 824015559753126921, guid: e9a80b6ed4673bf4b81505522e4c029c, type: 3}
-  - {fileID: -8499701361930146817, guid: e9a80b6ed4673bf4b81505522e4c029c, type: 3}
+  - {fileID: 2100000, guid: 9a992bedf6e4699408088b8fab505d4c, type: 2}
+  - {fileID: 2100000, guid: 9a992bedf6e4699408088b8fab505d4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
