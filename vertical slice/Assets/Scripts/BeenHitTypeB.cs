@@ -59,4 +59,10 @@ public class BeenHitTypeB : MonoBehaviour
     {
         isshakeCamera = true;
     }
+
+    public void DontHitShake()
+    {
+        isshakeCamera = false;
+    }
+
 }
