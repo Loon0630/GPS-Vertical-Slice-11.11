@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: defc303e3e710ba41800095d07beb19b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: brushield
+  fontNames:
+  - brushield
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 11df13a3c7919f947837cf1e11858a93, type: 3}
+  - {fileID: 12800000, guid: 4f7aafa6ff5212f49918c655f3262ddc, type: 3}
+  - {fileID: 12800000, guid: ce7e900ae13aabc47a2dc42a1c660a50, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
