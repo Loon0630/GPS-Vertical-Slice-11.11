@@ -36,4 +36,9 @@ public class BeenHitTypeA : MonoBehaviour
     {
         damaged = true;
     }
+
+    public void DontTakeDamage()
+    {
+        damaged = false;
+    }
 } 

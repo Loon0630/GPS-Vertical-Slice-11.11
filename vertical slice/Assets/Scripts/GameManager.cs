@@ -55,6 +55,8 @@ public class GameManager : MonoBehaviour
     public void OnButtonRetry()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        GameObject.Find("FlashPanel").GetComponent<BeenHitTypeA>().DontTakeDamage();
+        GameObject.Find("Main Camera").GetComponent<BeenHitTypeB>().DontHitShake();
         LoseUI.SetActive(false);
         ShopUI.SetActive(true);
         JoyUI.SetActive(true);
